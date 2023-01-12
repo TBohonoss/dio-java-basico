@@ -1,7 +1,12 @@
 public class MinhaClasse {
 
 public static void main (String [] args) {
-    System.out.println("Olá Thiago, seja bem-vindo!");
+
+    String nome = "Thiago";
+    String BR = "Brasil";
+
+    System.out.println("Olá " + nome + ", você mora no " + BR);
+
 }
 
 }
