@@ -1,17 +1,17 @@
 public class MinhaClasse {
 
-public static void main (String [] args) {
+    public static void main (String [] args) {
 
-    String primeiroNome = "Thiago";
-    String segundoNome = "Bohonos";
+        String primeiroNome = "Thiago";
+        String segundoNome = "Bohonos";
 
-    String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
+        String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
 
-    System.out.println(nomeCompleto);
-}
+        System.out.println(nomeCompleto);
+    }
 
-public static String nomeCompleto (String primeiroNome, String segundoNome) {
-    return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
-}
+    public static String nomeCompleto (String primeiroNome, String segundoNome) {
+        return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
+    }
 
 }
