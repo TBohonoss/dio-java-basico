@@ -2,11 +2,16 @@ public class MinhaClasse {
 
 public static void main (String [] args) {
 
-    String nomeCompleto = "Thiago Bohonos";
-    String BR = "Brasil";
+    String primeiroNome = "Thiago";
+    String segundoNome = "Bohonos";
 
-    System.out.println("Olá " + nomeCompleto + ", você mora no " + BR + "!");
+    String nomeCompleto = nomeCompleto(primeiroNome, segundoNome);
 
+    System.out.println(nomeCompleto);
+}
+
+public static String nomeCompleto (String primeiroNome, String segundoNome) {
+    return "Resultado do método " + primeiroNome.concat(" ").concat(segundoNome);
 }
 
 }
