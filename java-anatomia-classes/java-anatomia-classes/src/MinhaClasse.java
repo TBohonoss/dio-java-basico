@@ -2,10 +2,10 @@ public class MinhaClasse {
 
 public static void main (String [] args) {
 
-    String nome = "Thiago";
+    String nomeCompleto = "Thiago Bohonos";
     String BR = "Brasil";
 
-    System.out.println("Olá " + nome + ", você mora no " + BR);
+    System.out.println("Olá " + nomeCompleto + ", você mora no " + BR + "!");
 
 }
 
